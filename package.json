@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/meiliou/portfolio-generator.git"
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/meiliou/portfolio-generator/issues"
   },
-  "homepage": "https://github.com/meiliou/portfolio-generator#readme"
+  "homepage": "https://github.com/meiliou/portfolio-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
 }
